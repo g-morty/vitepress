@@ -1,27 +1,21 @@
 import { defineConfig } from 'vitepress'
+import router from "./router"
 
 export default defineConfig({
   base: "/vitepress/",
-  title: "chrome",
-  description: "chrome浏览器插件开发中文指南",
+  title: "notes",
+  description: "morty私人笔记",
   head: [['link', { rel: 'icon', href: '/favicon.png' }]],
   lang: "zh-CN",
   themeConfig: {
     i18nRouting: true,
-    siteTitle: 'chrome plugs',
+    siteTitle: 'home',
     nav: [
       { text: "Manifest V3", link: '/synopsis' },
     ],
-    sidebar: [
-      {
-        text: '简介',
-        link: '/synopsis'
-      },
-      { text: '快速开始', link: '/quickStart' }
-    ],
-
+    sidebar: router,
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/g-morty/vitepress' }
     ],
     footer: {
       message: '欢迎联系作者',
