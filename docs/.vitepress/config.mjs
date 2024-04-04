@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  base: "/vitepress/",
   title: "chrome",
   description: "chrome浏览器插件开发中文指南",
   head: [['link', { rel: 'icon', href: '/favicon.png' }]],
