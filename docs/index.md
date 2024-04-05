@@ -2,16 +2,27 @@
 layout: home
 
 hero:
-  name: "首页"
+  name: ""
   text: ""
   tagline: "完成比完美更重要"
-  actions:
-    - theme: brand
-      text: 开始
-      link: /synopsis
 features:
   - icon: Git
     link: /git/
     details: 分布式版本的版本控制系统
+  - icon: MD
+    link: /git/
+    details: markdown
+  - icon: dk
+    link: /git/
+    details: docker
+  - icon: MD
+    link: /git/
+    details: markdown
+  - icon: MD
+    link: /git/
+    details: markdown
+  - icon: MD
+    link: /git/
+    details: markdown
 ---
 

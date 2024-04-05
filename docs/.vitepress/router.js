@@ -12,5 +12,13 @@ export default {
       text: 'git config',
       link: '/git/gitConfig'
     },
+    {
+      text: 'git commit',
+      link: '/git/gitCommit'
+    },
+    {
+      text: 'git push',
+      link: '/git/gitPush'
+    },
   ]
 }

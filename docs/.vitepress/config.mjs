@@ -5,7 +5,7 @@ export default defineConfig({
   base: "/vitepress/",
   title: "notes",
   description: "morty私人笔记",
-  head: [['link', { rel: 'icon', href: '/favicon.png' }]],
+  head: [['link', { rel: 'icon', href: '/vitepress/favicon.png' }]],
   lang: "zh-CN",
   themeConfig: {
     i18nRouting: true,
