@@ -1,7 +1,7 @@
 export default {
   '/git/': [
     {
-      text: '概述',
+      text: 'summary',
       link: '/git/index'
     },
     {

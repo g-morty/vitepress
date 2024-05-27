@@ -12,12 +12,12 @@ features:
   - icon: MD
     link: /git/
     details: markdown
-  - icon: dk
+  - icon: DK
     link: /git/
     details: docker
-  - icon: MD
-    link: /git/
-    details: markdown
+  - icon: JA
+    link: /java/
+    details: java
   - icon: MD
     link: /git/
     details: markdown
