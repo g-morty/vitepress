@@ -5,6 +5,10 @@ export default {
       link: '/git/index'
     },
     {
+      text: 'git init',
+      link: '/git/gitInit'
+    },
+    {
       text: 'git add',
       link: '/git/gitAdd'
     },

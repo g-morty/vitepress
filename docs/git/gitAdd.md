@@ -1,7 +1,3 @@
----
-prev: false
-next: false
----
 # git add
 ## 作用
 将文件从工作区添加到暂存区<br/>
