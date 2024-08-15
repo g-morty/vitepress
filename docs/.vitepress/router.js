@@ -24,5 +24,17 @@ export default {
       text: 'git push',
       link: '/git/gitPush'
     },
+  ],
+  '/java/': [
+    {
+      text: '数据类型',
+      collapsed: true,
+      items: [
+        {
+          text: 'byte',
+          link: '/java/dataType/byte'
+        }
+      ]
+    },
   ]
 }
